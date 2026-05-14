@@ -1,0 +1,33 @@
+{
+  "name": "clawhub-guard",
+  "version": "1.0.0",
+  "description": "Pre-install security scanner for ClawHub skills — scan before you install, never trust blindly.",
+  "main": "src/cli.js",
+  "bin": {
+    "clawhub-guard": "./bin/clawhub-guard.js"
+  },
+  "scripts": {
+    "test": "node src/cli.js scan --help"
+  },
+  "keywords": [
+    "clawhub",
+    "openclaw",
+    "security",
+    "skill",
+    "scanner",
+    "vetter",
+    "agent-shield"
+  ],
+  "author": "taiwanape",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/taiwanape/clawhub-guard.git"
+  },
+  "dependencies": {
+    "@elliotllliu/agent-shield": "^0.16.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
