@@ -1,10 +1,10 @@
 {
   "name": "clawhub-guard",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Pre-install security scanner for ClawHub skills — scan before you install, never trust blindly.",
   "main": "src/cli.js",
   "bin": {
-    "clawhub-guard": "./bin/clawhub-guard.js"
+    "clawhub-guard": "./src/cli.js"
   },
   "scripts": {
     "test": "node src/cli.js scan --help"
